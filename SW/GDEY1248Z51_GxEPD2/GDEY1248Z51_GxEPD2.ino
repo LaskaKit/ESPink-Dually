@@ -17,9 +17,10 @@
 #include <Fonts/FreeMonoBold9pt7b.h>
 #include "bitmaps/Bitmaps1304x984.h" // 12.48" b/w
 
-GxEPD2_3C<GxEPD2_1248c, GxEPD2_1248c::HEIGHT / 4> display(GxEPD2_1248c(/*sck=*/ 12, /*miso=*/ -1, /*mosi=*/ 11, /*cs_m1=*/ 10, /*cs_s1=*/ 18, /*cs_m2=*/ 48, /*cs_s2=*/ 41,
-                            /*dc1=*/ 46, /*dc2=*/ 45, /*rst1=*/ 3, /*rst2=*/ 39, /*busy_m1=*/ 8, /*busy_s1=*/ 17, /*busy_m2=*/ 40, /*busy_s2=*/ 16));
-
+// V2
+//GxEPD2_3C<GxEPD2_1248c, GxEPD2_1248c::HEIGHT / 4> display(GxEPD2_1248c(/*sck=*/ 12, /*miso=*/ -1, /*mosi=*/ 11, /*cs_m1=*/ 10, /*cs_s1=*/ 18, /*cs_m2=*/ 48, /*cs_s2=*/ 41, /*dc1=*/ 46, /*dc2=*/ 45, /*rst1=*/ 3, /*rst2=*/ 39, /*busy_m1=*/ 8, /*busy_s1=*/ 17, /*busy_m2=*/ 40, /*busy_s2=*/ 16));
+// V3
+GxEPD2_3C<GxEPD2_1248c, GxEPD2_1248c::HEIGHT / 4> display(GxEPD2_1248c(/*sck=*/ 12, /*miso=*/ -1, /*mosi=*/ 11, /*cs_m1=*/ 10, /*cs_s1=*/ 18, /*cs_m2=*/ 48, /*cs_s2=*/ 41, /*dc1=*/ 15, /*dc2=*/ 6, /*rst1=*/ 7, /*rst2=*/ 39, /*busy_m1=*/ 8, /*busy_s1=*/ 21, /*busy_m2=*/ 1, /*busy_s2=*/ 14));
 
 void setup()
 {
