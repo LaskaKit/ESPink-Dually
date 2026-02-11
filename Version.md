@@ -1,4 +1,6 @@
-### Version 3.0
+### Version 3.1
+- Fixed no current selected for charger | 
+#### Version 3.0
 - New power part, layout optimization | 
 - Fuel gauge replaced by ADC in pin IO9 | 
 - Epaper BUSY S1 pin changed from IO17 to IO21 | 
